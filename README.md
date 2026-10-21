@@ -308,17 +308,6 @@ Meeting transcripts often exceed typical context windows. VidQuery employs LangC
 
 ---
 
-## 🤝 Contributing
-
-Contributions, bug reports, and feature requests are welcome!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m "Add AmazingFeature"`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
 
 <div align="center">
   <sub>Built with ❤️ by <a href="https://github.com/smithaherkar">Smith Aherkar</a></sub>
