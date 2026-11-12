@@ -22,7 +22,6 @@
 [Core Features](#-core-features) •
 [Quickstart](#-quickstart--installation) •
 [Project Structure](#-project-structure) •
-[Resume Highlights](#-resume-highlights-for-recruiters) •
 [Author](#-author--contact)
 
 </div>
@@ -241,26 +240,6 @@ VidQuery/
 │
 └── utils/                    # Media handling utilities
     └── audio_processor.py    # yt-dlp downloader, 16kHz WAV normalization & 10m chunker
-```
-
----
-
-## 💼 Resume Highlights (For Recruiters)
-
-If you are a recruiter or hiring manager reviewing this project, here are the key competencies demonstrated:
-
-- **End-to-End GenAI Architecture:** Designed and implemented a complete multi-modal AI workflow from raw audio ingestion to downstream RAG chat using LangChain Expression Language (LCEL).
-- **Hybrid Speech-to-Text Engineering:** Routed multi-accented speech across local Whisper and cloud Sarvam AI, solving cold-start API limits with custom 25-second windowing.
-- **Large Context Handling (Map-Reduce):** Implemented hierarchical summarization over long-form transcripts to overcome context window saturation and prevent attention loss.
-- **Production-Conscious RAG:** Engineered a lightweight, CPU-efficient vector retrieval pipeline using ChromaDB and `all-MiniLM-L6-v2` with strict anti-hallucination guardrails.
-- **Modern Full-Stack Python Delivery:** Built both a responsive, modern dark-themed web interface in Streamlit and a headless terminal CLI.
-
-### Sample Resume Bullets:
-```text
-• Engineered "VidQuery", an enterprise meeting intelligence assistant ingesting YouTube and local recordings into structured action items, executive summaries, and interactive RAG chat.
-• Architected a dual-engine STT router combining local OpenAI Whisper for offline English audio with Sarvam AI for bilingual Hinglish speech recognition and English translation.
-• Implemented a LangChain LCEL Map-Reduce summarization pipeline chunking long transcripts into 3,000-character segments to eliminate context window truncation and attention degradation.
-• Built a local vector search engine using ChromaDB and all-MiniLM-L6-v2 embeddings, achieving sub-20ms similarity retrieval with strict anti-hallucination guardrails.
 ```
 
 ---
